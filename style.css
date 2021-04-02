@@ -49,3 +49,23 @@ main {
 .card p {
   padding-top: 16px;
 }
+
+header {
+  padding: 56px 0 24px;
+}
+
+.intro-chunk {
+  padding: 0 16px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  padding-bottom: 24px;
+  max-width: 330px;
+  line-height: 1.4;
+}
+
+.title {
+  padding-bottom: 40px;
+  font-size: 1.75rem;
+}
