@@ -10,12 +10,12 @@ body {
   height: 100%;
 }
 
+/* Add styles here! */
 h2, p, h1 {
  margin: 0
 }
 
-/* Add styles here! */
-strong {
+.intro-chunk strong {
   color: hsl(160deg, 100%, 30%)
 }
 
@@ -23,7 +23,7 @@ strong {
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   padding: 16px 32px;
-  display: inline-block;
+  width: fit-content;
   margin-left: -32px;
   font-size: 1.25rem;
 }
@@ -48,6 +48,7 @@ main {
 
 .card p {
   padding-top: 16px;
+  line-height: 1.4;
 }
 
 header {
